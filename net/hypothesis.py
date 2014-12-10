@@ -10,5 +10,3 @@ def sigLinGrad(params,X):
         return np.repeat(np.expand_dims(h0g,1),X.shape[1],1)*X
     else:
         return h0g*X 
-    
-print 'test'
